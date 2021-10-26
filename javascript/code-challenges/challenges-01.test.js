@@ -90,7 +90,6 @@ Return the modified array.
 
 const addValues = (arr, value) => {
   arr.push(value);
-  // console.log(localArray);
 };
 
 const addNumbers = (num, arr, times, callback) => {
@@ -119,14 +118,15 @@ This function should use forEach to populate your grocery list based on the stor
 ------------------------------------------------------------------------------------------------ */
 
 const createList = (availableItems) => {
-  const array = [];
-  availableItems.forEach(function(item)) {
-    if (availableItems == true) {
-    array.push(availableItems)
-  }
-  return availableItems;
+  let localArray = [];
+  availableItems.forEach(item => {
+    if(item.available) {
+      localArray.push(item.name);
+    }});
+  return localArray;
 };
 
+// createList(availableItems)
 /* ------------------------------------------------------------------------------------------------
 STRETCH - CHALLENGE 7
 
