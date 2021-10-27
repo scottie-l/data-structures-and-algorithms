@@ -1,6 +1,6 @@
 'use strict';
 
-const { index } = require("cheerio/lib/api/traversing");
+// const { index } = require("cheerio/lib/api/traversing");
 
 /* ------------------------------------------------------------------------------------------------
 
@@ -19,7 +19,7 @@ const raisedToTheThird = (arr) => {
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 2
 
-Write a function named addOne that, given an array of numbers, uses map to return a new array with each value simply incremented by 1. 
+Write a function named addOne that, given an array of numbers, uses map to return a new array with each value simply incremented by 1.
 ------------------------------------------------------------------------------------------------ */
 
 const addOne = (arr) => {
@@ -49,7 +49,9 @@ For example, twoToThe([1,2,3]) returns [2,4,8] because 2 ^ 1 = 2, 2 ^ 2 = 4, and
 
 const forLoopTwoToThe = (arr) => {
   let localArray = [];
-  for (let i=[]; i<arr.length; i*2);
+  for (let i=0; i<arr.length; i++) {
+    localArray.push(Math.pow(2, arr[i]));
+  }
   return localArray;
 };
 
@@ -61,7 +63,7 @@ Write a function named forEachTwoToThe that produces the same output as your for
 
 const forEachTwoToThe = (arr) => {
   let localArray = [];
-  arr.forEach(int => localArray.push(Math.pow(int, 2)));
+  arr.forEach(int => localArray.push(Math.pow(2, int)));
   return localArray;
 };
 
@@ -71,10 +73,7 @@ CHALLENGE 6
 Write a function named mapTwoToThe that produces the same output as your forLoopTwoToThe function from challenge 4 and your forEachTwoToThe function from challenge 5, but uses map instead of a for loop or forEach.
 ------------------------------------------------------------------------------------------------ */
 
-const mapTwoToThe = (arr) => {
-  return arr.map(number => number + 1
-  );
-};
+const mapTwoToThe = (arr) => arr.map(int => Math.pow(2, int));
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
@@ -295,13 +294,13 @@ xdescribe('Testing challenge 9', () => {
   });
 });
 
-xdescribe('Testing challenge 10', () => {
-  test('It should return an array containing objects with name and total values', () => {
-    expect(extractStats(snorlaxStats.stats)).toStrictEqual([
-      { name: 'speed', total: 35, },
-      { name: 'special-defense', total: 112, },
-      { name: 'special-attack', total: 74, },
-    ]);
-    expect(extractStats(snorlaxStats.stats).length).toStrictEqual(3);
-  });
-});
+// xdescribe('Testing challenge 10', () => {
+//   test('It should return an array containing objects with name and total values', () => {
+//     expect(extractStats(snorlaxStats.stats)).toStrictEqual([
+//       { name: 'speed', total: 35, },
+//       { name: 'special-defense', total: 112, },
+//       { name: 'special-attack', total: 74, },
+//     ]);
+//     expect(extractStats(snorlaxStats.stats).length).toStrictEqual(3);
+//   });
+// });
