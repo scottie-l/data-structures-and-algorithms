@@ -9,6 +9,7 @@ Write a function named longestString that takes in an array of strings and retur
 const longestString = (arr) => {
   let longest = arr.reduce((acc, curr) => {
     return acc.length > curr.length ? acc: curr;
+    
   }, '');
   return arr.indexOf(longest);
 };
