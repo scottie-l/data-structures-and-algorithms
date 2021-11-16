@@ -3,13 +3,12 @@
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 1 - Review
 
-Write a function named longestString that takes in an array of strings and returns the index position of the longest string. 
+Write a function named longestString that takes in an array of strings and returns the index position of the longest string.
 ------------------------------------------------------------------------------------------------ */
 
 const longestString = (arr) => {
   let longest = arr.reduce((acc, curr) => {
     return acc.length > curr.length ? acc: curr;
-    
   }, '');
   return arr.indexOf(longest);
 };
@@ -36,8 +35,8 @@ For example, ['this is great :)', 'wow', 'whyyyyyy :(', ':)))))'] returns ['this
 ------------------------------------------------------------------------------------------------ */
 
 const findHappiness = (arr) => {
-  let solution = arr.filter(string => string.indexOf(')') > -1);
-  return solution;
+  let happy = arr.filter(string => string.indexOf(')') > -1);
+  return happy;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -50,8 +49,8 @@ For example, (123) 456-7890 returns 1234567890
 
 const standardizePhoneNumbers = (arr) => {
   let regex = /[()\s-]/g;
-  let solution = arr.map(phone => phone.replace(regex, ''));
-  return solution;
+  let standard = arr.map(phone => phone.replace(regex, ''));
+  return standard;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -64,7 +63,7 @@ For example, 'abcdefg' returns 'bdf'
 
 const onlyOddChars = (str) => {
   let arr = str.split('');
-  return arr.filter((string, i) => {
+  return arr.filter((str, i) => {
     return i % 2 !== 0;
   }).join('');
 };
