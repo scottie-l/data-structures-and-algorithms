@@ -35,8 +35,8 @@ For example, ['this is great :)', 'wow', 'whyyyyyy :(', ':)))))'] returns ['this
 ------------------------------------------------------------------------------------------------ */
 
 const findHappiness = (arr) => {
-  let solution = arr.filter(string => string.indexOf(')') > -1);
-  return solution;
+  let happy = arr.filter(string => string.indexOf(')') > -1);
+  return happy;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -49,8 +49,8 @@ For example, (123) 456-7890 returns 1234567890
 
 const standardizePhoneNumbers = (arr) => {
   let regex = /[()\s-]/g;
-  let solution = arr.map(phone => phone.replace(regex, ''));
-  return solution;
+  let standard = arr.map(phone => phone.replace(regex, ''));
+  return standard;
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -76,10 +76,10 @@ Write a function named allHappy that takes in an array of strings and returns a 
 
 const allHappy = (arr) => {
   let regex = /:\)/;
-  let temp = arr.map(string => {
+  let happy = arr.map(string => {
     return regex.test(string);
   });
-  return temp.every(value => value === true);
+  return happy.every(value => value === true);
 };
 
 /* ------------------------------------------------------------------------------------------------
