@@ -7,8 +7,8 @@ Write a function named replaceZeros that, given a string, uses Regex to replace 
 ------------------------------------------------------------------------------------------------ */
 
 const replaceZeros = (string) => {
-  let regex = /0/g;
-  return string.replace(regex, 'zero');
+  let validate = /0/g;
+  return string.replace(validate, 'zero');
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -20,8 +20,7 @@ If the PIN is four numerical digits long, return true. Otherwise, return false.
 ------------------------------------------------------------------------------------------------ */
 
 const validatePin = (pin) => {
-  let regex = /\b\d{4}\b/g;
-  return regex.test(pin);
+  // Solution code here...
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -33,8 +32,7 @@ If the word is between 5 and 10 characters long, return true. Otherwise, return 
 ------------------------------------------------------------------------------------------------ */
 
 const validateWord = (word) => {
-  let regex = /\b([a-z]{5,10})\b/gi;
-  return regex.test(word);
+  // Solution code here...
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -46,8 +44,7 @@ If it does, return true. If not, return false.
 ------------------------------------------------------------------------------------------------ */
 
 const hasNumber = (string) => {
-  let regex = /([a-z]+\d+)/gi;
-  return regex.test(string);
+  // Solution code here...
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -67,8 +64,7 @@ Note: if you ever need to validate an email using a regex in practice, the Inter
 ------------------------------------------------------------------------------------------------ */
 
 const validateEmail = (email) => {
-  let regex = /^([a-z0-9]+.[a-z0-9]+)@([a-z0-9.]+)\.(com|org|net)\b/gi;
-  return regex.test(email);
+  // Solution code here...
 };
 
 /* ------------------------------------------------------------------------------------------------
@@ -93,8 +89,7 @@ Return either true or false.
 ------------------------------------------------------------------------------------------------ */
 
 const validatePhoneNumber = (phoneNumber) => {
-  let regex = /^(\(\d{3}\)|\d{3})[-\s]?\d{3}[-\s]?\d{4}$/g;
-  return regex.test(phoneNumber);
+  // Solution code here...
 };
 
 /* ------------------------------------------------------------------------------------------------
