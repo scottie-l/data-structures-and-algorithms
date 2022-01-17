@@ -1,6 +1,6 @@
 'use strict';
 
-class Node {
+class Node { // create the node
   constructor(value) {
     this.value = value;
     this.next = null;
@@ -12,11 +12,11 @@ class LinkedList {
   constructor() {
   }
 
-  insert(value) {
+  insert(value) { // add a node
     let insertedNode = new Node(value);
 
-    if(this.head === null){  // include head property (Upon instantiation, an empty Linked List should be created.)
-      this.head = insertedNode;  // should contain the following methods: insert, includes, to string
+    if(this.head === null){ // include head property (Upon instantiation, an empty Linked List should be created.)
+      this.head = insertedNode; // should contain the following methods: insert, includes, to string
       return this.head;
     } else {
       insertedNode.next = this.head;
@@ -25,7 +25,7 @@ class LinkedList {
     return this.head;
   }
 
-  includes(value) {
+  includes(value) { // traverse the nodes
     let current = this.head;
 
     while(current) {
@@ -37,7 +37,7 @@ class LinkedList {
     return false;
   }
 
-  toString() {
+  toString() { // logs the values of nodes to console
     let current = this.head;
     let listString = '';
 
@@ -49,7 +49,7 @@ class LinkedList {
     return listString;
   }
 
-  append(value) {
+  append(value) { // append a node with a value to list @ end
     let appendedNode = new Node(value);
 
     if(!this.head) {
@@ -65,7 +65,7 @@ class LinkedList {
     current.next = appendedNode;
   }
 
-  insertBefore(value, newVal) {  // take a value and add it to our linked list
+  insertBefore(value, newVal) { // take a value and add it to our linked list before a node
     if(value === this.head.value) {
       this.insert(newVal);
       return this.head;
@@ -84,7 +84,7 @@ class LinkedList {
     return 'Exception';
   }
 
-  insertAfter(value, newVal) {  // take a value and add it to our linked list
+  insertAfter(value, newVal) { // take a value and add it to our linked list after a node
     let newValNode = new Node(newVal);
     let current = this.head;
 
@@ -99,7 +99,7 @@ class LinkedList {
     return 'Exception';
   }
 
-  nthFromEnd(n) {
+  nthFromEnd(n) { // take a value and add it inside the list
     if(!this.head.next) {
       return `Only 1 value exists in the Linked List: ${this.head.value}`;
     }
@@ -152,8 +152,4 @@ module.exports = {
 // list.add(20);
 // list.add(33);
 
-// describe('testing linked list', () => {
-//   it('Should have Jacob as the head', () => {
-//     expect(list.head.value).toEqual('Jacob');
-//   });
-// });
+
