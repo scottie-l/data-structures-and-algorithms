@@ -185,7 +185,7 @@ describe('Testing Linked List functionality', () => {
     expect(returnValue).toEqual('Exception');
   });
 
-  it('Should return "Exception" if "k" equals the length of the Linked List', () => {
+  it('Should return "Exception" if "n" equals the length of the Linked List', () => {
     const testList = new ListGen();
     testList.head = new NodeGen(0);
     testList.head.next = new NodeGen(1);

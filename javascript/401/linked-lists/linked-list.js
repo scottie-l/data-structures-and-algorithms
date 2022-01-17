@@ -6,8 +6,8 @@ class Node {
     this.next = null;
   }
 }
-// create a linked list class
 
+// create a linked list class
 class LinkedList {
   constructor() {
   }
@@ -29,7 +29,7 @@ class LinkedList {
     let current = this.head;
 
     while(current) {
-      if(current.value === value){
+      if(current.value === value) {
         return true;
       }
       current = current.next;
@@ -65,7 +65,6 @@ class LinkedList {
     current.next = appendedNode;
   }
 
-  
   insertBefore(value, newVal) {  // take a value and add it to our linked list
     if(value === this.head.value) {
       this.insert(newVal);
