@@ -99,18 +99,18 @@ class LinkedList {
     return 'Exception';
   }
 
-  nthFromEnd(n) { // take a value and add it inside the list
+  kthFromEnd(k) { // take a value and add it inside the list
     if(!this.head.next) {
       return `Only 1 value exists in the Linked List: ${this.head.value}`;
     }
-    if(n < 1) {
+    if(k < 1) {
       return 'Exception';
     }
 
     let marker = this.head;
     let current = this.head;
 
-    for (let i = 0; i < n; i++) {
+    for (let i = 0; i < k; i++) {
       if(!marker) {
         return 'Exception';
       }
