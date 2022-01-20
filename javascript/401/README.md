@@ -28,3 +28,4 @@ Day 7: Linked list kth.
 We add nodes to the kth postionn away using a 'number' as arguament and 'k' as our parameter.
 - [linked-list](https://github.com/scottie-l/data-structures-and-algorithms/tree/main/javascript/401/linked-lists)
 - [linked-list Whiteboard](linked-list-kth.png)
+
