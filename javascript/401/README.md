@@ -23,3 +23,7 @@ Day 6: Linked list insertions.
 We add nodes to the end and insert a node before and after a specific node.
 - [linked-list](https://github.com/scottie-l/data-structures-and-algorithms/tree/main/javascript/401/linked-lists)
 - [linked-list Whiteboard](Linked-lists.png)
+
+Day 7: Linked-list zip.
+We zip 2 linked lists together.
+[linked-list-zip]()
