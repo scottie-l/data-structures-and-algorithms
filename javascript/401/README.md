@@ -27,3 +27,10 @@ We add nodes to the end and insert a node before and after a specific node.
 Day 7: Linked-list zip.
 We zip 2 linked lists together.
 [linked-list-zip]()
+
+Day 9: Whiteboard Challenge with peer
+A mock whiteboard interview with a peer.
+
+Day 10: Linked-list; Stacks and Queues
+Challenge: Implement both a Stack and a Queue. Create a Node class that has properties for the value stored in the Node, and a pointer to the next node.
+[stacks-and-queues](https://github.com/scottie-l/data-structures-and-algorithms/tree/main/javascript/401/stacks-and-queues)
