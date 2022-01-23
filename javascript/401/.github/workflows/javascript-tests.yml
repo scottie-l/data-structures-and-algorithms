@@ -1,5 +1,3 @@
-# Found the code below copied from "https://github.com/actions/setup-node" that automates test scripts!!!
-
 name: Run Javascript Tests
 
 on: [push]
