@@ -1,0 +1,72 @@
+# 'use strict';
+
+# const server = require('../app.js');
+# const supertest = require('supertest');
+# const req = supertest(server.app);
+
+# describe('Testing my HTTP server', () => {
+
+#   it('Should be able to reponsd to a POST to /message', async () => { // Can successfully push onto a stack
+#     let res = await req.post('/message?text=test&author=test');
+
+#     expect(res.status).toEqual(200);
+#     console.log(res.body);
+#     expect(res.body[0].text).toEqual('test');
+#   });
+# });
+
+
+# // Can successfully push multiple values onto a stack
+# // Can successfully pop off the stack
+# // Can successfully empty a stack after multiple pops
+# // Can successfully peek the next item on the stack
+# // Can successfully instantiate an empty stack
+# // Calling pop or peek on empty stack raises exception
+# // Can successfully enqueue into a queue
+# // Can successfully enqueue multiple values into a queue
+# // Can successfully dequeue out of a queue the expected value
+# // Can successfully peek into a queue, seeing the expected value
+# // Can successfully empty a queue after multiple dequeues
+# // Can successfully instantiate an empty queue
+# // Calling dequeue or peek on empty queue raises exception
+
+
+
+
+name: Run Javascript Tests
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    strategy:
+    matrix:
+    node-version: [14.x]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v1
+      with:
+        node-version: ${{ matrix.node-version }}
+    - name: npm install, build, and test
+      run: |
+        npm i
+        npm test
+      env:
+        CI: true
+        
+
+# // describe('Testing my HTTP server', () => {
+
+# //   it('Should be able to reponsd to a POST to /message', async () => {
+# //     let res = await req.post('/message?text=test&author=test');
+
+# //     expect(res.status).toEqual(200);
+# //     console.log(res.body);
+# //     expect(res.body[0].text).toEqual('test');
+# //   });
+# // });
