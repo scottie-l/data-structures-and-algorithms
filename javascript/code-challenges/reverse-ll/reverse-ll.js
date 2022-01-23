@@ -1,7 +1,7 @@
 'use strict';
 
 // Require the linked list implementation
-const LinkedList = require('../../linked-list');
+const Linkedlists = require('./__tests__/reverse-ll.test');
 
 
 /*
