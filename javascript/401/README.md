@@ -29,12 +29,16 @@ We add nodes to the kth postionn away using a 'number' as arguament and 'k' as o
 - [linked-list](https://github.com/scottie-l/data-structures-and-algorithms/tree/main/javascript/401/linked-lists)
 - [linked-list Whiteboard](linked-list-kth.png)
 
+Day 8: Linked list zip.
+Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the the zipped list.
+- []()
+
 Day 9: Whiteboard Challenge with peer
 A mock whiteboard interview with a peer.
 
 Day 10: Linked-list; Stacks and Queues
 Challenge: Implement both a Stack and a Queue. Create a Node class that has properties for the value stored in the Node, and a pointer to the next node.
-[stacks-and-queues](https://github.com/scottie-l/data-structures-and-algorithms/tree/main/javascript/401/stacks-and-queues)
+[stacks-and-queues](https://github.com/scottie-l/data-structures-and-algorithms/blob/main/javascript/401/linked-lists/stacks-and-queues.js)
 
 
 
