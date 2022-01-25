@@ -82,7 +82,6 @@ class Queue{
     }
     return this.front.value;
   }
-
 }
 
 module.exports = {
@@ -90,4 +89,3 @@ module.exports = {
   QueueGen: Queue,
   nodeGen: Node,
 };
-

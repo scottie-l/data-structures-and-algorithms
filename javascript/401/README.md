@@ -40,5 +40,8 @@ Day 10: Linked-list; Stacks and Queues
 Challenge: Implement both a Stack and a Queue. Create a Node class that has properties for the value stored in the Node, and a pointer to the next node.
 [stacks-and-queues](https://github.com/scottie-l/data-structures-and-algorithms/blob/main/javascript/401/linked-lists/stacks-and-queues.js)
 
+Day 11: Pseudo Stacks and Queues
+We create a new class called a PseudoQueue. We don't use an existing queue, instead, this PseudoQueue class will implement our standard queue interface.
+
 
 

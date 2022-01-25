@@ -56,7 +56,6 @@ class LinkedList {
       this.head = appendedNode;
       return this.head;
     }
-
     let current = this.head;
 
     while(current.next !== null) {
@@ -106,7 +105,6 @@ class LinkedList {
     if(k < 1) {
       return 'Exception';
     }
-
     let marker = this.head;
     let current = this.head;
 
@@ -134,7 +132,6 @@ module.exports = {
 
 // efficiency: time 0(n) - linear time efficiency
 // space 0(1) - we're only adding 1 item, constant space effiecancy
-
 
 // let node  = new Node('Jacob');
 // let list = new LinkedList();
