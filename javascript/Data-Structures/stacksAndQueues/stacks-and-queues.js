@@ -28,7 +28,7 @@ class Stack{
 
   pop(){
     if(this.isEmpty()){
-      return 'Exception - the stack is empty';
+      return 'Exception - Stack is empty';
     }
     let temp = this.top;
     this.top = temp.next;
@@ -38,7 +38,7 @@ class Stack{
 
   peek(){
     if(this.isEmpty()){
-      return 'Exception - the stack is empty';
+      return 'Exception - Stack is empty';
     }
     return this.top.value;
   }
@@ -68,7 +68,7 @@ class Queue{
 
   dequeue(){
     if(this.isEmpty()){
-      return 'Exception - the queue is empty';
+      return 'Exception - Queue is empty';
     }
     let temp = this.front;
     this.front = temp.next;
@@ -78,7 +78,7 @@ class Queue{
 
   peek(){
     if(this.isEmpty()){
-      return 'Exception - the queue is empty';
+      return 'Exception - Queue is empty';
     }
     return this.front.value;
   }

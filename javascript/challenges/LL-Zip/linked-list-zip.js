@@ -1,9 +1,8 @@
 'use strict';
 
-const master = require('./linked-list.js.js');
+const master = require('../../Data-Structures/linked-lists/linked-list.js');
 const NodeGen = master.nodeGen;
 const ListGen = master.listGen;
-
 
 function zipLists(list1, list2) {
   let ll3 = new ListGen();

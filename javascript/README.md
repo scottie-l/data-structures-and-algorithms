@@ -1,26 +1,45 @@
 # Table of Contents
 
-Day 1: reverse array
+**Day 1:** reverse array
 We had to reverse an array.
-[array-reverse](array-reverse.png)
+[array-reverse](assets/array-reverse.png)
 
-Day 2: array insert shift
+**Day 2:** array insert shift
 We have to insert an element into the middle of an array.
-[insert-shift-array](insert-shift-array.png)
+[insert-shift-array](assets/insert-shift-array.png)
 
-Day 3: array-binary-search
+**Day 3:** array-binary-search
 We are asked to search for a target value within a sorted array.
-[array-binary-search](array-binary-search.png)
+[array-binary-search](assets/array-binary-search.png)
 
-Day 4: Mock Interview
+**Day 4:** Mock Interview
 A mock whiteboard interview with a peer.
 
-Day 9: Whiteboard Challenge with peer
+**Day 5:** Linked List implentation.
+We created a linked linked list with ability to add and delete and traverse.
+[linked-list](https://github.com/scottie-l/data-structures-and-algorithms/tree/main/javascript/401/linked-lists)
+
+**Day 6:** Linked list insertions.
+We add nodes to the end and insert a node before and after a specific node.
+- [linked-list](https://github.com/scottie-l/data-structures-and-algorithms/tree/main/javascript/401/linked-lists)
+- [linked-list Whiteboard](assets/Linked-lists.png)
+
+**Day 7:** Linked list kth.
+We add nodes to the kth postionn away using a 'number' as arguament and 'k' as our parameter.
+- [linked-list](https://github.com/scottie-l/data-structures-and-algorithms/tree/main/javascript/401/linked-lists)
+- [linked-list Whiteboard](assets/linked-list-kth.png)
+
+**Day 8:** Linked list zip.
+Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the the zipped list.
+- []()
+
+**Day 9:** Whiteboard Challenge with peer
 A mock whiteboard interview with a peer.
 
-Day 10: Linked-list; Stacks and Queues
+**Day 10:** Linked-list; Stacks and Queues
 Challenge: Implement both a Stack and a Queue. Create a Node class that has properties for the value stored in the Node, and a pointer to the next node.
 [stacks-and-queues](https://github.com/scottie-l/data-structures-and-algorithms/blob/main/javascript/401/linked-lists/stacks-and-queues.js)
 
-
-
+**Day 11:** Stacks and Queues
+Challenge: Implement both a Stack and a Queue. Create a Node class that has properties for the value stored in the Node, and a pointer to the next node.
+[stacks-and-queues](https://github.com/scottie-l/data-structures-and-algorithms/blob/main/javascript/401/linked-lists/stacks-and-queues.js)
