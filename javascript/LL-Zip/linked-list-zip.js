@@ -1,6 +1,6 @@
 'use strict';
 
-const master = require('./linked-list.js');
+const master = require('./linked-list.js.js');
 const NodeGen = master.nodeGen;
 const ListGen = master.listGen;
 

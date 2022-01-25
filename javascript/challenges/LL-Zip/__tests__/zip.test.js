@@ -1,7 +1,7 @@
 'use strict';
 
-const listZip = require('./linked-list-zip.js');
-const master = require('./linked-list-zip.js');
+const listZip = require('./linked-list-zip.js.js');
+const master = require('./linked-list-zip.js.js');
 const NodeGen = master.nodeGen;
 const ListGen = master.listGen;
 
