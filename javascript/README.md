@@ -54,6 +54,6 @@
 
 **Day 13:** Validate Brackets
 
-- We Write a function called validate brackets that takes in a argument as a string, and returns a boolean representing whether or not the brackets in the string are balanced. There are 3 types of brackets: Round: `()` Square: `[]` & Curly: `{}`. [Validate Brackets](challenger/validateBrackets)
+- We Write a function called validate brackets that takes in a argument as a string, and returns a boolean representing whether or not the brackets in the string are balanced. There are 3 types of brackets: Round: `()` Square: `[]` & Curly: `{}`. [Validate Brackets](challenges/ValidateBrackets/validateBrackets.js)
 
 - **[Home](https://github.com/scottie-l/data-structures-and-algorithms)**
