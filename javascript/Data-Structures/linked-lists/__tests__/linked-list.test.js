@@ -224,9 +224,3 @@ describe('Testing Linked List functionality', () => {
     expect(returnValue).toEqual('Exception');
   });
 });
-
-// describe('testing linked list', () => {
-//   it('Should have Jacob as the head', () => {
-//     expect(list.head.value).toEqual('Jacob');
-//   });
-// });

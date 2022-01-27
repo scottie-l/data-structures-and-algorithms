@@ -23,14 +23,14 @@
 **Day 6:** Linked list insertions
 
 - We add nodes to the end and insert a node before and after a specific node.
-    - [linked-list-insertions](Data-Structures/linked-lists/linked-list.js)
-    - [linked-list Whiteboard](assets/Linked-lists.png)
+  - [linked-list-insertions](Data-Structures/linked-lists/linked-list.js)
+  - [linked-list Whiteboard](assets/Linked-lists.png)
 
 **Day 7:** Linked list kth.
 
 - We add nodes to the kth postionn away using a 'number' as arguament and 'k' as our parameter.
-    - [linked-list-kth](Data-Structures/linked-lists/linked-list.js)
-    - [linked-list Whiteboard](assets/linked-list-kth.png)
+  - [linked-list-kth](Data-Structures/linked-lists/linked-list.js)
+  - [linked-list Whiteboard](assets/linked-list-kth.png)
 
 **Day 8:** Linked list zip.
 
@@ -51,5 +51,9 @@
 **Day 12:** Animal Shelter
 
 - We create a class Animal Shelter which holds only cats and dogs. Operate using FIFO. Will enqueue animal if it's a cat or dog. Will dequeue using pref as argumanet of cat or dog. [Animal Shelter](challenges/AnimalShelter/animal-shelter.js)
+
+**Day 13:** Validate Brackets
+
+- We Write a function called validate brackets that takes in a argument as a string, and returns a boolean representing whether or not the brackets in the string are balanced. There are 3 types of brackets: Round: `()` Square: `[]` & Curly: `{}`. [Validate Brackets](challenger/validateBrackets)
 
 - **[Home](https://github.com/scottie-l/data-structures-and-algorithms)**

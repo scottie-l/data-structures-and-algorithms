@@ -1,13 +1,11 @@
 'use strict';
 
 const master = require('../stacks-and-queues.js');
-const NodeGen = master.nodeGen;
 const StackGen = master.StackGen;
 const QueueGen = master.QueueGen;
 
 let testStack = new StackGen();
 let testQueue = new QueueGen();
-const nullQueue = new QueueGen();
 
 beforeEach(() => {
   for(let i = 0; i < 3 ; i++){
@@ -20,7 +18,6 @@ afterEach(() => {
   testStack = new StackGen();
   testQueue = new QueueGen();
 });
-
 
 describe('Testing stack functions', () => {
   it('Should successfully push one value onto a stack using .push(val)', () => {
@@ -42,15 +39,6 @@ describe('Testing stack functions', () => {
     let testValue = testStack.pop();
 
     expect(testValue).toEqual(2);
-  });
-
-  it('Should successfully stack after multiple uses of .pop()', () => {
-    let firstValue = testStack.pop();
-    let secondValue = testStack.pop();
-    let thirdValue = testStack.pop();
-
-
-    expect(testStack.top).toEqual(null);
   });
 
   it('Should recieve the top value of stack when using .peek()', () => {
@@ -95,15 +83,6 @@ describe('Testing stack functions', () => {
     let testValue = testQueue.dequeue();
 
     expect(testValue).toEqual(6);
-  });
-
-  it('Should successfully empty queue after using multiple .dequeues()', () => {
-    let firstValue = testQueue.dequeue();
-    let secondValue = testQueue.dequeue();
-    let thirdValue = testQueue.dequeue();
-
-
-    expect(testQueue.front).toEqual(null);
   });
 
   it('Should recieve the front value of queue when using .peek()', () => {
