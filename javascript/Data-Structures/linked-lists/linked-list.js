@@ -56,9 +56,7 @@ class LinkedList {
       this.head = appendedNode;
       return this.head;
     }
-
     let current = this.head;
-
     while(current.next !== null) {
       current = current.next;
     }
@@ -72,7 +70,6 @@ class LinkedList {
     }
     let newValNode = new Node(newVal);
     let current = this.head;
-
     while(current.next !== null) {
       if(current.next.value === value) {
         newValNode.next = current.next;
@@ -106,10 +103,8 @@ class LinkedList {
     if(k < 1) {
       return 'Exception';
     }
-
     let marker = this.head;
     let current = this.head;
-
     for (let i = 0; i < k; i++) {
       if(!marker) {
         return 'Exception';
@@ -134,22 +129,3 @@ module.exports = {
 
 // efficiency: time 0(n) - linear time efficiency
 // space 0(1) - we're only adding 1 item, constant space effiecancy
-
-
-// let node  = new Node('Jacob');
-// let list = new LinkedList();
-// let node2 = new Node(13);
-// let node3 = new Node(20);
-// let node4 = new Node(33);
-
-// list.head = node;
-// list.head.next = node2;
-// list.head.next.next = node3;
-// list.head.next.nxet.next = node4;
-
-// list.add('Jacob');
-// list.add(13);
-// list.add(20);
-// list.add(33);
-
-
