@@ -54,6 +54,10 @@
 
 **Day 13:** Validate Brackets
 
-- We Write a function called validate brackets that takes in a argument as a string, and returns a boolean representing whether or not the brackets in the string are balanced. There are 3 types of brackets: Round: `()` Square: `[]` & Curly: `{}`. [Validate Brackets](challenges/ValidateBrackets/validateBrackets.js)
+- We Write a function called validate brackets that takes in a argument as a string, and returns a boolean representing whether or not the brackets in the string are balanced. There are 3 types of brackets: Round: `()` Square: `[]` & Curly: `{}`. [Validate Brackets](challenges/ValidateBrackets/validateBrackets.js);
+
+**Day 14:** Whiteboard Challenge with peer
+
+- A mock whiteboard interview with a peer, working on the Duck Duck Goose problem. Counting begins at a point and proceeds around the circle. After a specified number of people skipped, the next person is removed. This continues until one person is left. [DuckDuckGoose](assets/code-challenge14.png);
 
 - **[Home](https://github.com/scottie-l/data-structures-and-algorithms)**
