@@ -62,7 +62,7 @@ Code challenges should be completed within a folder named `code-challenges` unde
     - Reminder: Your challenge file will then need to require the data structure you're using to implement
       - i.e. `const LinkedList = require('../linked-list');
     - Your challenge function name is up to you, but it's recommended that you use camel case
-      - i.e. `function findMaximumValue(list) { ... }`
+      - i.e. `function findMaxValue(list) { ... }`
     - Be sure to export your function so that you can write tests
   - Tests
     - Create folder named `__tests__` and within it, a test file called `[challenge].test.js`

@@ -82,9 +82,11 @@
 **Day 15** Trees
 
 - We create a Binary Tree class and define a method for each of the depth first traversals: pre-order, in-order, post-order which returns an array of the values, ordered appropriately. Also create a Binary Search Tree class with the following additional methods: Add, Arguments: value, Return: nothing, Adds a new node with that value in the correct location in the binary search tree.
-- [Tree Whiteboard](assets/.png)
+- [Tree Whiteboard](assets/tree.png)
 - [Tree Solution](challenges/Trees/Trees.js)
 
-**Day 16** 
+**Day 16:** We write a function to find the maximum value stored in the tree. Binary Tree will be numeric.
+- [Find Maximum Value Whiteboard](/assets/MaxValue.png)
+- [Tree Solution](Trees.js)
 
 - **[Home](https://github.com/scottie-l/data-structures-and-algorithms)**

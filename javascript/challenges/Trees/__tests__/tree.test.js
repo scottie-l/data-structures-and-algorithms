@@ -57,4 +57,28 @@ describe('Testing BinaryTree class constructor as methods', () => {
 
     expect(response).toEqual([ 0, 20, 10, 25, 15, 5 ]);
   });
+
+  it('Should return the maximum value within a BinaryTree with findMaxValue()', () => {
+    const maxTree = new BinaryTree();
+    maxTree.root = new Node(24);
+    maxTree.root.left = new Node(36);
+    maxTree.root.left.left = new Node(30);
+    maxTree.root.left.right = new Node(6);
+    maxTree.root.right = new Node(60);
+    maxTree.root.right.left = new Node(42);
+    const returnValue = maxTree.findMaxValue();
+
+    expect(returnValue).toEqual(60);
+  });
+
+  it('Should return "Exception - Tree contains no numeric values" if BinaryTree has no values or the root is not a number when calling findMaxValue()', () => {
+    const testOneBST = new BinaryTree();
+    const testTwoBST = new BinaryTree();
+    testTwoBST.root = new Node('Not a Number');
+    const firstCase = testOneBST.findMaxValue();
+    const secondCase = testTwoBST.findMaxValue();
+
+    expect(firstCase).toEqual('Exception - Tree contains no numeric values');
+    expect(secondCase).toEqual('Exception - Tree contains no numeric values');
+  });
 });

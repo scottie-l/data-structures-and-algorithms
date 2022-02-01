@@ -74,7 +74,31 @@ class BinaryTree {
     innerPostOrder(current); // C
     return array;
   }
+
+  findMaxValue() {
+    if(this.root === null || isNaN(this.root.value)) {
+      return 'Exception - Tree contains no numeric values';
+    }
+    let currentMaximum = this.root.value;
+
+    const findMaxPreOrder = (node) => {
+      if(node.value > currentMaximum) {
+        currentMaximum = node.value;
+      }
+      if(node.left) {
+        findMaxPreOrder(node.left);
+      }
+      if(node.right) {
+        findMaxPreOrder(node.right);
+      }
+    };
+    let current = this.root;
+    findMaxPreOrder(current);
+    return currentMaximum;
+  }
 }
+
+
 
 module.exports = {
   Node: Node,
