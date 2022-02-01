@@ -11,4 +11,8 @@ Create a Binary Search Tree class: This class should be a sub-class of the Binar
 - [Find Maximum Value Whiteboard](/assets/MaxValue.png)
 - [Tree](Trees.js)
 
+**Day 17:** We write a function called Breadth first that returns a list of all values in the tree, in the order they were encountered. We traverse the tree using a breadth first approach.
+- [Breadth First Whiteboard](/assets/xxxxxxx .png)
+- [Tree Solution](Trees.js)
+
 - **[Back](https://github.com/scottie-l/data-structures-and-algorithms/blob/main/javascript/README.md)**
