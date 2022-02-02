@@ -75,6 +75,28 @@ class BinaryTree {
     return array;
   }
 
+  breadthFirst() {
+    if(this.root === null) {
+      return 'Exception - Tree contains no values';
+    }
+    const array = [];
+    const queue = [];
+    queue.push(this.root);
+
+    while(queue.length !== 0) {
+      let current = queue[0];
+      if(current.left) {
+        queue.push(current.left);
+      }
+      if(current.right) {
+        queue.push(current.right);
+      }
+      let tempNode = queue.shift();
+      array.push(tempNode.value);
+    }
+    return array;
+  }
+
   findMaxValue() {
     if(this.root === null || isNaN(this.root.value)) {
       return 'Exception - Tree contains no numeric values';
@@ -98,9 +120,73 @@ class BinaryTree {
   }
 }
 
+class BinarySearchTree extends BinaryTree {
 
+  add(value) {
+  //   let newNode = new Node(value); // 126
+  //   if(this.root === null) {
+  //     this.root = newNode;
+  //     return;
+  //   }
+
+  //   const addNode = (current) => {
+  //     if(value < current.value) {
+  //       if(current.left) {
+  //         current = current.left;
+  //         addNode(current);
+  //       } else {
+  //         current.left = newNode;
+  //         return;
+  //       }
+  //     }
+  //     if(value > current.value) {
+  //       if(current.right) {
+  //         current = current.right;
+  //         addNode(current);
+  //       } else {
+  //         current.right = newNode;
+  //         return;
+  //       }
+  //     }
+  //   };
+  //   let current = this.root;
+  //   addNode(current);
+  // }
+
+  // contains(value) {
+  //   if(this.root === null) {
+  //     return 'Exception - Tree contains no values';
+  //   }
+  //   let isInTree = false;
+
+  //   const checker = (current) => {
+  //     if(value === current.value) {
+  //       isInTree = true;
+  //     }
+  //     if(value < current.value) {
+  //       if(current.left) {
+  //         current = current.left;
+  //         return checker(current);
+  //       } else {
+  //         isInTree = false;
+  //       }
+  //     } else if(value > current.value) {
+  //       if(current.right) {
+  //         current = current.right;
+  //         return checker(current);
+  //       } else {
+  //         isInTree = false;
+  //       }
+  //     }
+  //   };
+  //   let current = this.root;
+  //   checker(current);
+  //   return isInTree; //184
+  }
+}
 
 module.exports = {
   Node: Node,
   BinaryTree: BinaryTree,
+  BST: BinarySearchTree,
 };

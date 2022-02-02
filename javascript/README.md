@@ -87,11 +87,11 @@
 
 **Day 16:** We write a function to find the maximum value stored in the tree. Binary Tree will be numeric.
 - [Find Maximum Value Whiteboard](/assets/MaxValue.png)
-- [Tree Solution](Trees.js)
+- [Tree Solution](challenges/Trees/Trees.js)
 
 
 **Day 17:** We write a function called Breadth first that returns a list of all values in the tree, in the order they were encountered.
-- [Breadth First Whiteboard](/assets/xxxxxxx .png)
-- [Tree Solution](Trees.js)
+- [Breadth First Whiteboard](/assets/breadth-first.png)
+- [Tree Solution](challenges/Trees/Trees.js)
 
 - **[Home](https://github.com/scottie-l/data-structures-and-algorithms)**
