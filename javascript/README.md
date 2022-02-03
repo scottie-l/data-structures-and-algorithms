@@ -94,7 +94,7 @@
 - [Tree Solution](challenges/Trees/Trees.js)
 
 **Day 18:** We write a function called Fizz Buzz that takes in a K-ary tree as an argument and returns a new K-ary tree where the value of each node is divisible by 3, 5 or both, and replace the value with “Fizz”, "Buzz”, or “FizzBuzz”. If the value is not divisible by 3 or 5, simply turn the number into a String.
-- [Fizz Buzz Tree Whiteboard](/assets/fizz-buzz.png)
+- [Fizz Buzz Tree Whiteboard](assets/fizz-buzz.png)
 - [Fizz Buzz Tree Solution](challenges/tree-fizz-buzz/fizz-buzz-tree.js)
 
 - **[Home](https://github.com/scottie-l/data-structures-and-algorithms)**
