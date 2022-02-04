@@ -77,7 +77,7 @@
 **Day 14:** Whiteboard Challenge with peer
 
 - A mock whiteboard interview with a peer, working on the Duck Duck Goose problem. Counting begins at a point and proceeds around the circle. After a specified number of people skipped, the next person is removed. This continues until one person is left.
-- [DuckDuckGoose](assets/code-challenge14.png);
+- [DuckDuckGoose Whiteboard](assets/code-challenge14.png);
 
 **Day 15** Trees
 
@@ -96,5 +96,10 @@
 **Day 18:** We write a function called Fizz Buzz that takes in a K-ary tree as an argument and returns a new K-ary tree where the value of each node is divisible by 3, 5 or both, and replace the value with “Fizz”, "Buzz”, or “FizzBuzz”. If the value is not divisible by 3 or 5, simply turn the number into a String.
 - [Fizz Buzz Tree Whiteboard](assets/fizz-buzz.png)
 - [Fizz Buzz Tree Solution](challenges/tree-fizz-buzz/fizz-buzz-tree.js)
+
+**Day 19:** Whiteboard Challenge with peer
+
+- A mock whiteboard interview with a peer, working on how to find and return the sum of all odd numbers in a Bianry Search Tree using the depth-first or breadth first methods.
+- [Sum of all Odd #'s](assets/code-challenge-19.png);
 
 - **[Home](https://github.com/scottie-l/data-structures-and-algorithms)**
