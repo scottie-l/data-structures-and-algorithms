@@ -102,4 +102,11 @@
 - A mock whiteboard interview with a peer, working on how to find and return the sum of all odd numbers in a Bianry Search Tree using the depth-first or breadth first methods.
 - [Sum of all Odd #'s](assets/code-challenge-19.png);
 
+**Day 20:** Insertion sort Blog
+
+We're given pseudocode, and make an algorithm and step through the process with a provided sample array. We document our explanation by writing a blog article.
+
+- [Insertion Sort Blog](../javascript/insertionSort/BLOG.md)
+- [Insertion sort Solution](../javascript/insertionSort/insertionSort.js)
+
 - **[Home](https://github.com/scottie-l/data-structures-and-algorithms)**
