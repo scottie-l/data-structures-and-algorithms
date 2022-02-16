@@ -107,6 +107,15 @@
 We're given pseudocode, and make an algorithm and step through the process with a provided sample array. We document our explanation by writing a blog article.
 
 - [Insertion Sort Blog](../javascript/insertionSort/BLOG.md)
+- [Insetion Sort Whiteboard](../javascript/assets/insertionSort/InsertionSort.png)
 - [Insertion sort Solution](../javascript/insertionSort/insertionSort.js)
+
+**Day 21:** Merge sort Blog
+
+We're given pseudocode, and make an algorithm and step through the process with a provided sample array. We document our explanation by writing a blog article.
+
+- [Merge Sort Blog](../javascript/mergeSort/BLOG.md)
+- [Merge Sort Whiteboard](../javascript/assets/mergeSort/mergeSort.png)
+- [Merge sort Solution](../javascript/mergeSort/mergeSort.js)
 
 - **[Home](https://github.com/scottie-l/data-structures-and-algorithms)**
