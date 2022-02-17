@@ -118,4 +118,12 @@ We're given pseudocode, and make an algorithm and step through the process with 
 - [Merge Sort Whiteboard](../javascript/assets/mergeSort/mergeSort.png)
 - [Merge sort Solution](../javascript/mergeSort/mergeSort.js)
 
+**Day 22:** Quick sort Blog
+
+We're given pseudocode, and make an algorithm and step through the process with the provided sample array. We then document our explanation by writing a blog article.
+
+- [Quick Sort Blog](../javascript/quickSort/BLOG.md)
+- [Quick Sort Whiteboard](../javascript/assets/quickSort/QuickSort.png)
+- [Quick sort Solution](../javascript/quickSort/quickSort.js)
+
 - **[Home](https://github.com/scottie-l/data-structures-and-algorithms)**

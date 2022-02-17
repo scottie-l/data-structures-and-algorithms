@@ -1,6 +1,5 @@
 # Merge Sort
 
----
 Merge sort is an array sorting algorithm which recursively splits an array in half, until each half of the array has one, or no indexes. At this point, each division is *'sorted'*.
 
 Because the array has only 1 element in it, it will always be in order. So the singleton arrays are recombined simarlarly, into the 2 half arrays again, but with one difference.
