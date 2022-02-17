@@ -1,6 +1,5 @@
 # Insertion Sort
 
----
 Insertion sort is an array sorting algorithm which splits an array into *'sorted'* and *'non-sorted'* parts. As each value(element) of the unsorted part of the array is iterated over, and places values at the correct position in the sorted part of the array. The process is repeated until all of the values in the unsorted part of the array have been placed in order in the sorted portion, resulting in a sorted array.
 
 We traverse the array with a for loop which starts at index 1 and, using a while loop, checks the value at the current index (assigned as *temp*) against the the value of the preceding index. If the *temp* value is less than that of the previous index, the two values are switched. If the value of *temp* is equal to, or higher than the value of the preceding index, no values are changed and the for loop continues.
