@@ -6,4 +6,7 @@ We review pseudocode and trace an algorithm by stepping through the process with
 - [Merge Sort Whiteboard](../assets/mergeSort/mergeSort.png)
 - [Merge sort Solution](./mergeSort.js)
 
-- **[Back](https://github.com/scottie-l/data-structures-and-algorithms/blob/main/javascript/README.md)**
+---
+[Back](/README.md)
+
+---

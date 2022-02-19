@@ -29,31 +29,31 @@ InsertionSort(int[] arr)
 
 **Step One:**
 
-![Step One](./assets/step-one.png)
+![Step One](./assets/iS-step-1.png)
 
 During the first pass of insertionSort, the *temp* value of 4 is compared to value 8. Because it is lower in value and `j` is >= 0, the value of 8 is assigned to index 1. Then the value of `j` is decremented by 1. Because the value of `j` is now -1, the value of 4 is assigned to index 0 and the while loop ends with 4 as the new beginning.
 
 **Step Two:**
 
-![Step Two](./assets/step-two.png)
+![Step Two](./assets/iS-step-2.png)
 
 In the next iteration, the *temp* value is 23. When 23 is compared to the preceding index of 8, it is not lower and, therefore, the while loop doesn't start. The value of 23 is reassigned to its original position at index 2 and `j` is currently at 1.
 
 **Step Three:**
 
-![Step Three](./assets/step-three.png)
+![Step Three](./assets/iS-step-3.png)
 
 Similarly, in the third pass, the *temp* value is 42. Again, 42 is compared to the preceding value of 23, and it's not lower and, therefore, the while loop does not start. The value of 42 is reassigned to its original position at index 3 and `j` is currently 2.
 
 **Step Four:**
 
-![Step Four](./assets/step-four.png)
+![Step Four](./assets/iS-step-4.png)
 
 In the fourth pass, the *temp* value is 16. 16 is compared to 42, and because it is lower, 42 is assigned to index 4 and `j` is decremented from 3 to 2. The while loop runs again because `j` is still >= to 0 and 16 is now less than the value at index 2, which is 23. 23 is assigned to index 3 and `j` is decremented again to 1. While `j` is still >= 0, the *temp* value of 16 is not less than the value at index 1, which is 8. So the while loop finishes and the value of 16 is assigned to index 2.
 
 **Step Five:**
 
-![Step Five](./assets/step-five.png)
+![Step Five](./assets/iS-step-5.png)
 
 Finally, in the fifth pass, the *temp* value becomes 15. 15 is compared to 42 at index 4, and because it's lower, the value of 42 is assigned to index 5 and `j` decrements to 3. The while loop runs again because `j` is still >= to 0 and 15 is less than 23, the value at index 3. 23 is assigned to index 4 and `j` is decremented again to 2. The value at index 2 is 16 which is larger than 15. So the value of 16 is assigned to index 3 and `j` decrements to 1. While `j` is still >= 0, the *temp* value of 15 is greater than the value at index 1, which is 8. So the while loop finishes and the value of 15 is assigned to index 2.
 
@@ -87,3 +87,8 @@ const insertionSort = (arr) => {
 ~~~
 
 [Solution](/insertionSort/insertionSort.js)
+
+---
+[Back](/README.md)
+
+---

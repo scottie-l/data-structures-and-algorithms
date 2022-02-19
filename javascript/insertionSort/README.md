@@ -6,4 +6,7 @@ We review pseudocode, and trace an algorithm by stepping through the process wit
 - [Insertion Sort Whiteboard](../assets/insertionSort/InsertionSort.png)
 - [Insertion sort Solution](./insertionSort.js)
 
-- **[Back](https://github.com/scottie-l/data-structures-and-algorithms/blob/main/javascript/README.md)**
+---
+[Back](/README.md)
+
+---

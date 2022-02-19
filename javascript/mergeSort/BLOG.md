@@ -46,37 +46,37 @@ ALGORITHM Merge(left, right, arr)
 
 **Step One:**
 
-![Step One](./assets/mS-step-one.png)
+![Step One](./assets/mS-step-1.png)
 
 First,  we split the array in half, as evenly as possible. `mergeSort()` is then called for the left sub-array.
 
 **Step Two:**
 
-![Step Two](./assets/mS-step-two.png)
+![Step Two](./assets/mS-step-2.png)
 
 The left sub-array is split as evenly possible. The result here is a left sub-array with 1 value and a right sub-array with 2 values. We call `mergeSort()` for the right sub-array containing two values resulting in 2 sub-arrays with one value each. The entire left side of the original array has now been reduced.
 
 **Step Three:**
 
-![Step Three](./assets/mS-step-three.png)
+![Step Three](./assets/mS-step-3.png)
 
 Now the sub-divided arrays are merged into a sorted order, using logic that compares the values of the indexes of combining arrays. This continues until the left half of the array is reassembled in sorted order.
 
 **Step Four:**
 
-![Step Four](./assets/mS-step-four.png)
+![Step Four](./assets/mS-step-4.png)
 
 We then call `mergeSort()` for the right sub-array. Again, the sub-array is split as evenly possible. The result is a left sub-array with one value and a right sub-array with 2 values. `mergeSort()` is then called for the right sub-array containing the 2 values resulting in 2 sub-arrays with one value each. The entire right side of the original array has been reduced.
 
 **Step Five:**
 
-![Step Five](./assets/mS-step-five.png)
+![Step Five](./assets/mS-step-5.png)
 
 Now, the sub-divided arrays are merged in sorted order using the same logic that was used for the left side. This continues until the right half of the array is reassembled in sorted a order.
 
 **Step Six:**
 
-![Step Six](./assets/mS-step-six.png)
+![Step Six](./assets/mS-step-6.png)
 
 To finish, the two sorted halves of the array are merged back into the original which is now a completely sorted array.
 
@@ -140,3 +140,8 @@ module.exports = {
 ~~~
 
 [Solution](/mergeSort/mergeSort.js)
+
+---
+[Back](/README.md)
+
+---
