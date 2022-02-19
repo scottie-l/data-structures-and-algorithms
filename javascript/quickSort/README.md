@@ -6,4 +6,7 @@ We review pseudocode, and trace an algorithm by stepping through the process wit
 - [Quick Sort Whiteboard](../assets/quickSort/QuickSort.png)
 - [Quick sort Solution](./quickSort.js)
 
-- **[Back](https://github.com/scottie-l/data-structures-and-algorithms/blob/main/javascript/README.md)**
+---
+[Back](/README.md)
+
+---

@@ -1,48 +1,55 @@
 # Table of Contents
 
-**Day 1:** reverse array
+**Day 1:** Reverse Array
 
 - We had to reverse an array.
+- [README](/challenges/array-reverse/README.md)
 - [Array Reverse Whiteboard](assets/array-reverse.png)
 - [array reverser Solution](challenges/array-reverse/array-reverse.js)
 
-**Day 2:** array insert shift
+**Day 2:** Array Insert Shift
 
 - We have to insert an element into the middle of an array.
+- [README](/challenges/insert-shift-array/README.md)
 - [Insert Shift Array Whiteboard](assets/insert-shift-array.png)
 - [Insert Shift Array Solution](challenges/insert-shift-array/array-shift.js)
 
-**Day 3:** array-binary-search
+**Day 3:** Array Binary Search
 
 - We are asked to search for a target value within a sorted array.
+- [README](/challenges/array-binary-search/README.md)
 - [Array Binary Search Whiteboard](assets/array-binary-search.png)
 - [Array Binary Search Solution](challenges/array-binary-search/array-binary-search.js)
 
-**Day 4:** Mock Interview
+**Day 4:** Whiteboard Challenge with peer
 
 - A mock whiteboard interview with a peer.
 
-**Day 5:** Linked List implentation
+**Day 5:** Linked List Implentation
 
 - We created a linked linked list with ability to add and delete and traverse.
+- [README](/Data-Structures/linked-lists/README.md)
 - [Linked List Whiteboard](assets/Linked-lists.png)
 - [Linked List Solution](Data-Structures/linked-lists/linked-list.js)
 
-**Day 6:** Linked list insertions
+**Day 6:** Linked list Insertions
 
 - We add nodes to the end and insert a node before and after a specific node.
+- [README](/Data-Structures/linked-lists/README.md)
 - [Linked List Whiteboard](assets/Linked-lists.png)
 - [Linked List Insertions Solution](Data-Structures/linked-lists/linked-list.js)
 
-**Day 7:** Linked list kth.
+**Day 7:** Linked List K-th.
 
 - We add nodes to the kth postionn away using a 'number' as arguament and 'k' as our parameter.
+- [README](/Data-Structures/linked-lists/README.md)
 - [Linked List Whiteboard](assets/linked-list-kth.png)
 - [Linked List-kth Solution](Data-Structures/linked-lists/linked-list.js)
 
-**Day 8:** Linked list zip.
+**Day 8:** Linked List Zip.
 
 - Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the the zipped list.
+- [README](/challenges/LL-Zip/README.md)
 - [Linked List Zip Whiteboard](assets/Linked-lists.png)
 - [Linked List Zip Solution](challenges/LL-Zip/linked-list-zip.js)
 
@@ -50,50 +57,64 @@
 
 - A mock whiteboard interview with a peer.
 
-**Day 10:** Linked-list; Stacks and Queues
+**Day 10:** Linked List; Stacks and Queues
 
 - Implement both a Stack and a Queue. Create a Node class that has properties for the value stored in the Node, and a pointer to the next node.
+- [README](/Data-Structures/stacksAndQueues/README.md)
 - [Stacks and Queues Whiteboard](assets/stacks-and-queues.png)
 - [Stacks and Queues Solution](Data-Structures/stacksAndQueues/stacks-and-queues.js)
 
 **Day 11:** PseudoQueues
 
 - We implement both a new class called a pseudoQueue. Utilize 2 Stack instances to create and manage the queue by using the enqueue and the dequeue.
+- [README](/challenges/pseudoQueue/README.md)
 - [Pseudo Queues Whiteboard](assets/stacks-and-queues.png)
 - [Pseudo Queues Solution](challenges/pseudoQueue/pseudoQueue.js)
 
 **Day 12:** Animal Shelter
 
 - We create a class Animal Shelter which holds only cats and dogs. Operate using FIFO. Will enqueue animal if it's a cat or dog. Will dequeue using pref as argumanet of cat or dog.
+- [README](/challenges/AnimalShelter/README.md)
 - [Animal Shelter Whiteboard](assets/AnimalShelter.png)
 - [Animal Shelter Solution](challenges/AnimalShelter/animal-shelter.js)
 
 **Day 13:** Validate Brackets
 
 - We Write a function called validate brackets that takes in a argument as a string, and returns a boolean representing whether or not the brackets in the string are balanced. There are 3 types of brackets: Round: `()` Square: `[]` & Curly: `{}`.
+- [README](/challenges/ValidateBrackets/README.md)
 - [Validate Brackets Whiteboard](assets/ValidateBracket.png)
 - [Validate Brackets Solution](challenges/ValidateBrackets/validateBrackets.js);
 
 **Day 14:** Whiteboard Challenge with peer
 
 - A mock whiteboard interview with a peer, working on the Duck Duck Goose problem. Counting begins at a point and proceeds around the circle. After a specified number of people skipped, the next person is removed. This continues until one person is left.
-- [DuckDuckGoose Whiteboard](assets/code-challenge14.png);
+- [DuckDuckGoose Whiteboard](assets/Wtbrd.challenge-14.png);
 
 **Day 15** Trees
 
 - We create a Binary Tree class and define a method for each of the depth first traversals: pre-order, in-order, post-order which returns an array of the values, ordered appropriately. Also create a Binary Search Tree class with the following additional methods: Add, Arguments: value, Return: nothing, Adds a new node with that value in the correct location in the binary search tree.
+- [README](/challenges/Trees/README.md)
 - [Tree Whiteboard](assets/tree.png)
 - [Tree Solution](challenges/Trees/Trees.js)
 
-**Day 16:** We write a function to find the maximum value stored in the tree. Binary Tree will be numeric.
+**Day 16:** Max Value in Tree
+
+- We write a function to find the maximum value stored in the tree. Binary Tree will be numeric.
+- [README](/challenges/Trees/README.md)
 - [Find Maximum Value Whiteboard](assets/MaxValue.png)
 - [Tree Solution](challenges/Trees/Trees.js)
 
-**Day 17:** We write a function called Breadth first that returns a list of all values in the tree, in the order they were encountered.
+**Day 17:** Breadth First
+
+- We write a function called Breadth first that returns a list of all values in the tree, in the order they were encountered.
+- [README](/challenges/Trees/README.md)
 - [Breadth First Whiteboard](assets/breadth-first.png)
 - [Tree Solution](challenges/Trees/Trees.js)
 
-**Day 18:** We write a function called Fizz Buzz that takes in a K-ary tree as an argument and returns a new K-ary tree where the value of each node is divisible by 3, 5 or both, and replace the value with “Fizz”, "Buzz”, or “FizzBuzz”. If the value is not divisible by 3 or 5, simply turn the number into a String.
+**Day 18:** Fizz Buzz
+
+- We write a function called Fizz Buzz that takes in a K-ary tree as an argument and returns a new K-ary tree where the value of each node is divisible by 3, 5 or both, and replace the value with “Fizz”, "Buzz”, or “FizzBuzz”. If the value is not divisible by 3 or 5, simply turn the number into a String.
+- [README](/challenges/tree-fizz-buzz/README.md)
 - [Fizz Buzz Tree Whiteboard](assets/fizz-buzz.png)
 - [Fizz Buzz Tree Solution](challenges/tree-fizz-buzz/fizz-buzz-tree.js)
 
@@ -102,28 +123,43 @@
 - A mock whiteboard interview with a peer, working on how to find and return the sum of all odd numbers in a Bianry Search Tree using the depth-first or breadth first methods.
 - [Sum of all Odd #'s](assets/code-challenge-19.png);
 
-**Day 20:** Insertion sort Blog
+**Day 20:** Insertion Sort Blog
 
-We're given pseudocode, and make an algorithm and step through the process with a provided sample array. We document our explanation by writing a blog article.
-
+- We're given pseudocode, and make an algorithm and step through the process with a provided sample array. We document our explanation by writing a blog article.
+- [README](/insertionSort/README.md)
 - [Insertion Sort Blog](../javascript/insertionSort/BLOG.md)
 - [Insetion Sort Whiteboard](../javascript/assets/insertionSort/InsertionSort.png)
 - [Insertion sort Solution](../javascript/insertionSort/insertionSort.js)
 
-**Day 21:** Merge sort Blog
+**Day 21:** Merge Sort Blog
 
-We're given pseudocode, and make an algorithm and step through the process with a provided sample array. We document our explanation by writing a blog article.
-
+- We're given pseudocode, and make an algorithm and step through the process with a provided sample array. We document our explanation by writing a blog article.
+- [README](/mergeSort/README.md)
 - [Merge Sort Blog](../javascript/mergeSort/BLOG.md)
 - [Merge Sort Whiteboard](../javascript/assets/mergeSort/mergeSort.png)
 - [Merge sort Solution](../javascript/mergeSort/mergeSort.js)
 
-**Day 22:** Quick sort Blog
+**Day 22:** Quick Sort Blog
 
-We're given pseudocode, and make an algorithm and step through the process with the provided sample array. We then document our explanation by writing a blog article.
-
+- We're given pseudocode, and make an algorithm and step through the process with the provided sample array. We then document our explanation by writing a blog article.
+- [README](/quickSort/README.md)
 - [Quick Sort Blog](../javascript/quickSort/BLOG.md)
 - [Quick Sort Whiteboard](../javascript/assets/quickSort/QuickSort.png)
 - [Quick sort Solution](../javascript/quickSort/quickSort.js)
 
-- **[Home](https://github.com/scottie-l/data-structures-and-algorithms)**
+**Day 23:** Whiteboard Challenge with peer
+
+- A mock whiteboard interview with a peer, working on how to implement mergeSort function.
+- [MergeSort Whiteboard](/assets/Wtbrd.challenge-23.png);
+
+**Day 24:** Hash Table
+
+- We implement a Hash Table with the following methods: `set`, `get`, `contains`, `keys`, and `hash`.
+- [README](/hashtable/README.md)
+- [hash Table Whiteboard](../javascript/assets/hashtable.png)
+- [Hash Table Solution](../javascript/hashtable/hashtable.js)
+
+---
+**[Home](https://github.com/scottie-l/data-structures-and-algorithms)**
+
+---
