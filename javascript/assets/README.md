@@ -102,6 +102,10 @@ post-order which returns an array of the values, ordered appropriately. Any exce
 
 - We implement a Hash Table with the following methods: `set`, `get`, `contains`, `keys`, and `hash`.
 
+**Day 25:** [Repeated Word](../assets/Repeated-word.png)
+
+- We write a function called repeated word that finds the first word to occur more than once in a string. It takes in a string as argument and returns a string.
+
 ---
 [Back](/README.md)
 
