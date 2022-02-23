@@ -166,6 +166,13 @@
 - [Repeated Word Whiteboard](../javascript/assets/Repeated-word.png)
 - [Repeated Word Solution](../javascript/repeated-word/repeated-word.js)
 
+**Day 26:** Tree Intersection
+
+- We write a function called Tree Intersection that takes two binary trees as parameters. We use our Hashmap as a part of our algorithm, and we return all values found in both trees.
+- [README](/treeIntersection/README.md)
+- [Tree Intersection Whiteboard](../javascript/assets/TreeIntersection.png)
+- [Tree Intersection Solution](../javascript/treeIntersection/treeIntersection.js)
+
 ---
 **[Home](https://github.com/scottie-l/data-structures-and-algorithms)**
 

@@ -123,65 +123,65 @@ class BinaryTree {
 class BinarySearchTree extends BinaryTree {
 
   add(value) {
-    let newNode = new Node(value);
-    if(this.root === null) {
-      this.root = newNode;
-      return;
-    }
+  //   let newNode = new Node(value);
+  //   if(this.root === null) {
+  //     this.root = newNode;
+  //     return;
+  //   }
 
-    const addNode = (current) => {
-      if(value < current.value) {
-        if(current.left) {
-          current = current.left;
-          addNode(current);
-        } else {
-          current.left = newNode;
-          return;
-        }
-      }
-      if(value > current.value) {
-        if(current.right) {
-          current = current.right;
-          addNode(current);
-        } else {
-          current.right = newNode;
-          return;
-        }
-      }
-    };
-    let current = this.root;
-    addNode(current);
-  }
+  //   const addNode = (current) => {
+  //     if(value < current.value) {
+  //       if(current.left) {
+  //         current = current.left;
+  //         addNode(current);
+  //       } else {
+  //         current.left = newNode;
+  //         return;
+  //       }
+  //     }
+  //     if(value > current.value) {
+  //       if(current.right) {
+  //         current = current.right;
+  //         addNode(current);
+  //       } else {
+  //         current.right = newNode;
+  //         return;
+  //       }
+  //     }
+  //   };
+  //   let current = this.root;
+  //   addNode(current);
+  // }
 
-  contains(value) {
-    if(this.root === null) {
-      return 'Exception - Tree contains no values';
-    }
-    let isInTree = false;
+  // contains(value) {
+  //   if(this.root === null) {
+  //     return 'Exception - Tree contains no values';
+  //   }
+  //   let isInTree = false;
 
-    const checker = (current) => {
-      if(value === current.value) {
-        isInTree = true;
-      }
-      if(value < current.value) {
-        if(current.left) {
-          current = current.left;
-          return checker(current);
-        } else {
-          isInTree = false;
-        }
-      } else if(value > current.value) {
-        if(current.right) {
-          current = current.right;
-          return checker(current);
-        } else {
-          isInTree = false;
-        }
-      }
-    };
-    let current = this.root;
-    checker(current);
-    return isInTree;
+  //   const checker = (current) => {
+  //     if(value === current.value) {
+  //       isInTree = true;
+  //     }
+  //     if(value < current.value) {
+  //       if(current.left) {
+  //         current = current.left;
+  //         return checker(current);
+  //       } else {
+  //         isInTree = false;
+  //       }
+  //     } else if(value > current.value) {
+  //       if(current.right) {
+  //         current = current.right;
+  //         return checker(current);
+  //       } else {
+  //         isInTree = false;
+  //       }
+  //     }
+  //   };
+  //   let current = this.root;
+  //   checker(current);
+  //   return isInTree;
   }
 }
 
