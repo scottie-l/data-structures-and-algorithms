@@ -175,10 +175,24 @@
 
 **Day 27:** Left Join
 
-We write a function called left join that takes in 2 hashmaps as arguments. The returned data structure holds the results of the keys from the first and the values of those keys from both hashmaps.
-- [README.md](/left-join/README.md)
+- We write a function called left join that takes in 2 hashmaps as arguments. The returned data structure holds the results of the keys from the first and the values of those keys from both hashmaps.
+
+- [README](/left-join/README.md)
 - [Left Join Whiteboard](../assets/Left-join.png)
 - [Left Join Solution](./leftJoin.js)
+
+**Day 28:** Graph
+
+- We Implement our own Graph. The graph is represented as an adjacency list, and includes the following methods:
+
+- Add node
+- add edge
+- get nodes
+- get neighbors
+- size
+- [README](/graph/README.md)
+- [Graph Whiteboard](../assets/graphs.png)
+- [Graph Solution](./graph.js)
 
 ---
 **[Home](https://github.com/scottie-l/data-structures-and-algorithms)**
