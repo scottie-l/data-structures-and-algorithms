@@ -114,6 +114,10 @@ post-order which returns an array of the values, ordered appropriately. Any exce
 
 - We write a function called left join that takes in 2 hashmaps as arguments. The returned data structure holds the results of the keys from the first and the values of those keys from both hashmaps.
 
+**Day 28** [Graphs](../assets/graphs.png)
+
+- We Implement our own Graph. The graph is represented as an adjacency list, and includes the following methods: Add node, add edge, get nodes, get neighbors, size.
+
 ---
 [Back](/README.md)
 
