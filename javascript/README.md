@@ -173,6 +173,13 @@
 - [Tree Intersection Whiteboard](../javascript/assets/TreeIntersection.png)
 - [Tree Intersection Solution](../javascript/treeIntersection/treeIntersection.js)
 
+**Day 27:** Left Join
+
+We write a function called left join that takes in 2 hashmaps as arguments. The returned data structure holds the results of the keys from the first and the values of those keys from both hashmaps.
+- [README.md](/left-join/README.md)
+- [Left Join Whiteboard](../assets/Left-join.png)
+- [Left Join Solution](./leftJoin.js)
+
 ---
 **[Home](https://github.com/scottie-l/data-structures-and-algorithms)**
 

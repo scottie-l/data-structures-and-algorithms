@@ -110,6 +110,10 @@ post-order which returns an array of the values, ordered appropriately. Any exce
 
 - We write a function called Tree Intersection that takes two binary trees as parameters. We use our Hashmap as a part of our algorithm, and we return all values found in both trees.
 
+**Day 27:** [Left Join Whiteboard](../assets/Left-join.png)
+
+- We write a function called left join that takes in 2 hashmaps as arguments. The returned data structure holds the results of the keys from the first and the values of those keys from both hashmaps.
+
 ---
 [Back](/README.md)
 
