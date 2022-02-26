@@ -50,7 +50,7 @@
 
 - Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the the zipped list.
 - [README](/challenges/LL-Zip/README.md)
-- [Linked List Zip Whiteboard](assets/Linked-lists.png)
+- [Linked List Zip Whiteboard](assets/LLZiplist.png)
 - [Linked List Zip Solution](challenges/LL-Zip/linked-list-zip.js)
 
 **Day 9:** Whiteboard Challenge with peer
@@ -181,7 +181,12 @@
 - [Left Join Whiteboard](../assets/Left-join.png)
 - [Left Join Solution](./leftJoin.js)
 
-**Day 28:** Graph
+**Day 28:** Whiteboard Challenge with peer
+
+- A mock whiteboard interview with a peer, working on function to determine if a string is full of unique charactes.
+- [Unique Characters Whiteboard](/assets/Wtbrd.challenge-34.png);
+
+**Day 29:** Graph
 
 - We Implement our own Graph. The graph is represented as an adjacency list, and includes the following methods:
 

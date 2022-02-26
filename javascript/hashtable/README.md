@@ -8,6 +8,12 @@ We implement a Hash Table with the following methods:
 - `keys`- Returns: Collection of keys.
 - `hash`- Arg: 'key' Returns: index in collection for that key
 
+<u>*Big O:*</u>
+
+Time: 0(1)
+
+Space: 0(1)
+
 - [Hash Table Whiteboard](../assets/hashtable.png)
 - [Hash Table Solution](./hashtable.js)
 

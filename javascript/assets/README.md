@@ -2,15 +2,15 @@
 
 **Day 1:** [Array Reverse](/assets/array-reverse.png)
 
-We had to reverse an array.
+- We had to reverse an array.
 
 **Day 2:** [Insert Shift Array](/assets/insert-shift-array.png)
 
-We have to insert an element into the middle of an array.
+- We have to insert an element into the middle of an array.
 
 **Day 3:** [Array Binary Search](/assets/array-binary-search.png)
 
-We are asked to search for a target value within a sorted array.
+- We are asked to search for a target value within a sorted array.
 
 **Day 4:** [Whiteboard Challenge with peer](no link)
 
@@ -18,21 +18,21 @@ We are asked to search for a target value within a sorted array.
 
 **Day 5:** [Linked List Implementation](/assets/Linked-lists.png)
 
-We created a linked linked list with ability to add and delete and traverse.
+- We created a linked linked list with ability to add and delete and traverse.
 
 **Day 6:** [linked List Add/Insert](/assets/Linked-lists.png)
 
-We add nodes to the end and insert a node before and after a specific node.
+- We add nodes to the end and insert a node before and after a specific node.
 
 **Day 7:** - [linked List K-th](/assets/linked-list-kth.png)
 
-We add nodes to the kth postionn away using a 'number' as arguament and 'k' as our parameter.
+- We add nodes to the kth postionn away using a 'number' as arguament and 'k' as our parameter.
 
-**Day 8:** [linked List Zip](/assets/Linked-lists.png)
+**Day 8:** [linked List Zip](/assets/LLZiplist.png)
 
 - Zip the two linked lists together into one so that the nodes alternate between the two lists and return a reference to the the zipped list.
 
-**Day 9:** Whiteboard Challenge with peer
+**Day 9:** [Whiteboard Challenge with peer](no link)
 
 - A mock whiteboard interview with a peer.
 
@@ -98,7 +98,7 @@ post-order which returns an array of the values, ordered appropriately. Any exce
 - A mock whiteboard interview with a peer, working on how to implement mergeSort function.
 - [MergeSort](/assets/Wtbrd.challenge-23.png)
 
-**Day 24:** [hash Table](/assets/hashtable.png)
+**Day 24:** [Hash Table](/assets/hashtable.png)
 
 - We implement a Hash Table with the following methods: `set`, `get`, `contains`, `keys`, and `hash`.
 
@@ -110,11 +110,16 @@ post-order which returns an array of the values, ordered appropriately. Any exce
 
 - We write a function called Tree Intersection that takes two binary trees as parameters. We use our Hashmap as a part of our algorithm, and we return all values found in both trees.
 
-**Day 27:** [Left Join Whiteboard](../assets/Left-join.png)
+**Day 27:** [Left Join](../assets/Left-join.png)
 
 - We write a function called left join that takes in 2 hashmaps as arguments. The returned data structure holds the results of the keys from the first and the values of those keys from both hashmaps.
 
-**Day 28** [Graphs](../assets/graphs.png)
+**Day 28:** [Whiteboard Challenge with peer](../assets/Wtbrd.challenge-34.png)
+
+- A mock whiteboard interview with a peer, working on function to determine if a string is full of unique charactes.
+- [Unique Characters Whiteboard](/assets/Wtbrd.challenge-34.png);
+
+**Day 29** [Graphs](../assets/graphs.png)
 
 - We Implement our own Graph. The graph is represented as an adjacency list, and includes the following methods: Add node, add edge, get nodes, get neighbors, size.
 
