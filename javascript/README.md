@@ -176,7 +176,6 @@
 **Day 27:** Left Join
 
 - We write a function called left join that takes in 2 hashmaps as arguments. The returned data structure holds the results of the keys from the first and the values of those keys from both hashmaps.
-
 - [README](/left-join/README.md)
 - [Left Join Whiteboard](../assets/Left-join.png)
 - [Left Join Solution](./leftJoin.js)
@@ -189,15 +188,21 @@
 **Day 29:** Graph
 
 - We Implement our own Graph. The graph is represented as an adjacency list, and includes the following methods:
-
-- Add node
-- add edge
-- get nodes
-- get neighbors
-- size
+  - Add node
+  - add edge
+  - get nodes
+  - get neighbors
+  - size
 - [README](/graph/README.md)
 - [Graph Whiteboard](../assets/graphs.png)
 - [Graph Solution](./graph.js)
+
+**Day 30:** Breadth First Graph Traversal
+
+- We traveser through a graph. The method will be breadth first and take no arguments. It will return a collection of nodes in the order they were visited. They will display the collection at the end of the method.
+- [README](/breadthFirst/README.md)
+- [Breadth First Traversal Whiteboard](./assets/breadth-1st-graph.png)
+- [Breadth First traversal Solution](./breadthFirst/breadthFirst.js)
 
 ---
 **[Home](https://github.com/scottie-l/data-structures-and-algorithms)**

@@ -123,6 +123,10 @@ post-order which returns an array of the values, ordered appropriately. Any exce
 
 - We Implement our own Graph. The graph is represented as an adjacency list, and includes the following methods: Add node, add edge, get nodes, get neighbors, size.
 
+**Day 30:** [Breadth First Graph Traversal](../assets/breadth-1st-graph.png)
+
+- We traveser through a graph. The method will be breadth first and take no arguments. It will return a collection of nodes in the order they were visited. They will display the collection at the end of the method.
+
 ---
 [Back](/README.md)
 
