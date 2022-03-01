@@ -14,6 +14,15 @@ Implement our own Graph. Graph should be represented as an adjacency list, and s
   - get neighbors Arguments: node & Returns a collection of edges connected to the given node. Include the weight of the connection in the returned collection
   - size Arguments: none & Returns the total number of nodes in the graph
 
+  <u>*Big O:*</u>
+
+- V: vertices
+- E: edges
+
+Time: 0(V + E)
+
+Space: 0(V + E)
+
 - [Graph Whiteboard](../assets/graphs.png)
 - [Graph Solution](./graph.js)
 
