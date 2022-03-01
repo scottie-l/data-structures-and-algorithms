@@ -4,9 +4,12 @@ We traveser through a graph. The method will be breadth first and take no argume
 
 <u>*Big O:*</u>
 
-Time:
+- V: vertices
+- E: edges
 
-Space:
+Time: 0(V + E)
+
+Space: 0(V + E)
 
 - [Breadth First Traversal Whiteboard](../assets/breadth-1st-graph.png)
 - [Breadth First traversal Solution](breadthFirst.js)

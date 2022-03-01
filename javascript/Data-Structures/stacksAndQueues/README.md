@@ -4,7 +4,7 @@ Challenge: Implement both a Stack and a Queue. Create a Node class that has prop
 
 <u>*Big O:*</u>
 
-Time: 0(1)
+Time: 0(n)
 
 Space: 0(1)
 
