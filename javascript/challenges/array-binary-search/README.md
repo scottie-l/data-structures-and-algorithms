@@ -6,6 +6,6 @@
 - [Array Binary Search Solution](array-binary-search.js)
 
 ---
-[Back](/README.md)
+[Back](../README.md)
 
 ---

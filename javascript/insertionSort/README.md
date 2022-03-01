@@ -13,6 +13,6 @@ Space: 0(1)
 - [Insertion sort Solution](./insertionSort.js)
 
 ---
-[Back](/README.md)
+[Back](../README.md)
 
 ---

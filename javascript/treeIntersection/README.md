@@ -6,6 +6,6 @@ Find common values in 2 binary trees. We write a function called Tree Intersecti
 - [Tree Intersection Solution](./treeIntersection.js)
 
 ---
-[Back](/README.md)
+[Back](../README.md)
 
 ---

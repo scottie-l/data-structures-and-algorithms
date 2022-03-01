@@ -6,6 +6,6 @@ We write a function called Fizz Buzz that takes in a K-ary tree as an argument a
 - [Fizz Buzz Tree Solution](fizz-buzz-tree.js)
 
 ---
-[Back](/README.md)
+[Back](../README.md)
 
 ---

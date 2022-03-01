@@ -17,6 +17,6 @@ Implement our own Graph. Graph should be represented as an adjacency list, and s
 - [Graph Solution](./graph.js)
 
 ---
-[Back](/README.md)
+[Back](../README.md)
 
 ---

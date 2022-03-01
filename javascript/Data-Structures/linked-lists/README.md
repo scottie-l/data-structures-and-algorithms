@@ -20,6 +20,6 @@ We add nodes to the kth postionn away using a 'number' as arguament and 'k' as o
 - [linked-list Solution](linked-list.js)
 
 ---
-[Back](/README.md)
+[Back](../README.md)
 
 ---

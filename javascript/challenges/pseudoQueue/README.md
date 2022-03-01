@@ -6,6 +6,6 @@ Implement both a Stack and a Queue. Create a Node class that has properties for 
 - [Pseudo Queues Solution](pseudoQueue.js)
 
 ---
-[Back](/README.md)
+[Back](../README.md)
 
 ---

@@ -18,6 +18,6 @@ Space: 0(1)
 - [Hash Table Solution](./hashtable.js)
 
 ---
-[Back](/README.md)
+[Back](../README.md)
 
 ---

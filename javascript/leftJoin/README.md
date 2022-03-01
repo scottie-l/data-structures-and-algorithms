@@ -8,6 +8,6 @@ We write a function called left join that takes in 2 parameters. The first is a 
 - [Left Join Solution](./leftJoin.js)
 
 ---
-[Back](/README.md)
+[Back](../README.md)
 
 ---

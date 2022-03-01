@@ -13,6 +13,6 @@ Space: 0(n)
 - [Merge sort Solution](./mergeSort.js)
 
 ---
-[Back](/README.md)
+[Back](../README.md)
 
 ---

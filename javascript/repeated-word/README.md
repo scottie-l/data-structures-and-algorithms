@@ -6,6 +6,6 @@ We write a function called repeated word that finds the first word to occur more
 - [Repeated Word Solution](./repeated-word.js)
 
 ---
-[Back](/README.md)
+[Back](../README.md)
 
 ---

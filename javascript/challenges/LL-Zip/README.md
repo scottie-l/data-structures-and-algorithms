@@ -11,6 +11,6 @@ Space: 0(1)
 - [linked List Zip Solution](linked-list-zip.js)
 
 ---
-[Back](/README.md)
+[Back](../README.md)
 
 ---

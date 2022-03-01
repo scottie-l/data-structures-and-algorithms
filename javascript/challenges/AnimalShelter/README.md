@@ -6,6 +6,6 @@ We create a class Animal Shelter which holds only cats and dogs. Operate using F
 - [Animal Shelter Solution](animal-shelter.js)
 
 ---
-[Back](/README.md)
+[Back](../README.md)
 
 ---

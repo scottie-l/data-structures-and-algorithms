@@ -6,6 +6,6 @@
 - [Insert Shift Array Solution](array-shift.js)
 
 ---
-[Back](/README.md)
+[Back](../README.md)
 
 ---

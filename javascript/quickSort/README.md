@@ -13,6 +13,6 @@ Space: 0(1)
 - [Quick sort Solution](./quickSort.js)
 
 ---
-[Back](/README.md)
+[Back](../README.md)
 
 ---
