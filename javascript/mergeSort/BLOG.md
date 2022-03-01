@@ -139,7 +139,7 @@ module.exports = {
 };
 ~~~
 
-[Solution](/mergeSort/mergeSort.js)
+[Solution](mergeSort.js)
 
 ---
 [Back](README.md)

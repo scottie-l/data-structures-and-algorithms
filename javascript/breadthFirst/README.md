@@ -12,6 +12,6 @@ Space:
 - [Breadth First traversal Solution](breadthFirst.js)
 
 ---
-[Back](/README.md)
+[Back](../README.md)
 
 ---

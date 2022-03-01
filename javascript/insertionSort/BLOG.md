@@ -86,7 +86,7 @@ const insertionSort = (arr) => {
 };
 ~~~
 
-[Solution](/insertionSort/insertionSort.js)
+[Solution](insertionSort.js)
 
 ---
 [Back](README.md)
