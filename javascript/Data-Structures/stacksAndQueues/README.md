@@ -12,6 +12,6 @@ Space: 0(1)
 - [Stacks-and-Queues Solution](stacks-and-queues.js)
 
 ---
-[Back](../README.md)
+[Back](../../README.md)
 
 ---

@@ -6,6 +6,6 @@
 - [Array-Reverse Solution](array-reverse.js)
 
 ---
-[Back](../README.md)
+[Back](../../README.md)
 
 ---

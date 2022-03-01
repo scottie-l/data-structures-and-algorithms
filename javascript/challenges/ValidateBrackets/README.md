@@ -6,6 +6,6 @@
 - [Validate Brackets Solution](validateBrackets.js)
 
 ---
-[Back](../README.md)
+[Back](../../README.md)
 
 ---
