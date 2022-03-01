@@ -8,8 +8,8 @@ Time:
 
 Space:
 
-- [Breadth First Traversal Whiteboard](../assets/TreeIntersection.png)
-- [Breasdth First traversal Solution](./treeIntersection.js)
+- [Breadth First Traversal Whiteboard](../assets/breadth-1st-graph.png)
+- [Breadth First traversal Solution](breadthFirst.js)
 
 ---
 [Back](/README.md)

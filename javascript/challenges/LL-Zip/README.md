@@ -7,7 +7,7 @@ Zip the two linked lists together into one so that the nodes alternate between t
 Time: 0(1)
 Space: 0(1)
 
-- [Link List Whiteboard](/assets/LLZiplist.png)
+- [Link List Whiteboard](../../assets/LLZiplist.png)
 - [linked List Zip Solution](linked-list-zip.js)
 
 ---

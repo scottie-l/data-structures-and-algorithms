@@ -142,6 +142,6 @@ module.exports = {
 [Solution](/mergeSort/mergeSort.js)
 
 ---
-[Back](/README.md)
+[Back](README.md)
 
 ---

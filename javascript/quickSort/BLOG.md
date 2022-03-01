@@ -176,6 +176,6 @@ const swap = (arr, i, low) => {
 [Solution](quickSort.js)
 
 ---
-[Back](/README.md)
+[Back](README.md)
 
 ---

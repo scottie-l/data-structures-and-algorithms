@@ -8,7 +8,7 @@ Time: 0(1)
 
 Space: 0(1)
 
-- [Stacks and Queues Whiteboard](/assets/stacks-and-queues.png)
+- [Stacks and Queues Whiteboard](../../assets/stacks-and-queues.png)
 - [Stacks-and-Queues Solution](stacks-and-queues.js)
 
 ---
