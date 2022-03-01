@@ -200,9 +200,9 @@
 **Day 30:** Breadth First Graph Traversal
 
 - We traveser through a graph. The method will be breadth first and take no arguments. It will return a collection of nodes in the order they were visited. They will display the collection at the end of the method.
-- [README](/breadthFirst/README.md)
+- [README](/graph-breadthFirst/README.md)
 - [Breadth First Traversal Whiteboard](./assets/breadth-1st-graph.png)
-- [Breadth First traversal Solution](./breadthFirst/breadthFirst.js)
+- [Breadth First traversal Solution](./graph-breadthFirst/breadthFirst.js)
 
 ---
 **[Home](https://github.com/scottie-l/data-structures-and-algorithms)**
