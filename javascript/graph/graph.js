@@ -28,7 +28,7 @@ class Graph {
   // Adds a new edge between two nodes in the graph. If specified, assign a weight to the edge 
   addEdge(startVertex, endVertex = null, weight = 0) {
     if (!this.adjacencyList.has(startVertex)) {
-      throw new Error('Invalid start vertex');  // Both nodes should already be in the Graph
+      throw new Error('Invalid start vertex'); // Both nodes should already be in the Graph
     }
     const adjacencies = this.adjacencyList.get(startVertex);
     adjacencies.push(new Edge(endVertex, weight));
