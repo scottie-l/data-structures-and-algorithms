@@ -204,6 +204,13 @@
 - [Breadth First Traversal Whiteboard](./assets/breadth-1st-graph.png)
 - [Breadth First traversal Solution](./graph-breadthFirst/breadthFirst.js)
 
+**Day 31:** Graph Business trip
+
+We write a function called getEdges that takes graph and an array of city names, and returns the cost, or null. Determine whether the trip is possible with direct flights, and how much it would cost.
+- [README](/graph-trip/README.md)
+- [Business Trip Whiteboard](../assets/Graph-businessTrip.png)
+- [Business trip Solution](businessTrip.js)
+
 ---
 **[Home](https://github.com/scottie-l/data-structures-and-algorithms)**
 
