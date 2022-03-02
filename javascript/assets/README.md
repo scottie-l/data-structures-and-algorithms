@@ -127,6 +127,10 @@ post-order which returns an array of the values, ordered appropriately. Any exce
 
 - We traveser through a graph. The method will be breadth first and take no arguments. It will return a collection of nodes in the order they were visited. They will display the collection at the end of the method.
 
+**Day 31:** [Business Trip Whiteboard](../assets/Graph-businessTrip.png)
+
+- We write a function called getEdges that takes graph and an array of city names, and returns the cost, or null. Determine whether the trip is possible with direct flights, and how much it would cost.
+
 ---
 [Back](/README.md)
 

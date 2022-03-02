@@ -200,9 +200,16 @@
 **Day 30:** Breadth First Graph Traversal
 
 - We traveser through a graph. The method will be breadth first and take no arguments. It will return a collection of nodes in the order they were visited. They will display the collection at the end of the method.
-- [README](/breadthFirst/README.md)
+- [README](/graph-breadthFirst/README.md)
 - [Breadth First Traversal Whiteboard](./assets/breadth-1st-graph.png)
-- [Breadth First traversal Solution](./breadthFirst/breadthFirst.js)
+- [Breadth First traversal Solution](./graph-breadthFirst/breadthFirst.js)
+
+**Day 31:** Graph Business trip
+
+We write a function called getEdges that takes graph and an array of city names, and returns the cost, or null. Determine whether the trip is possible with direct flights, and how much it would cost.
+- [README](/graph-trip/README.md)
+- [Business Trip Whiteboard](../assets/Graph-businessTrip.png)
+- [Business trip Solution](businessTrip.js)
 
 ---
 **[Home](https://github.com/scottie-l/data-structures-and-algorithms)**
