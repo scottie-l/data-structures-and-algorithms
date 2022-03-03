@@ -178,7 +178,7 @@
 - We write a function called left join that takes in 2 hashmaps as arguments. The returned data structure holds the results of the keys from the first and the values of those keys from both hashmaps.
 - [README](/left-join/README.md)
 - [Left Join Whiteboard](../assets/Left-join.png)
-- [Left Join Solution](./leftJoin.js)
+- [Left Join Solution](../javascript/leftJoin/leftJoin.js)
 
 **Day 28:** Whiteboard Challenge with peer
 
@@ -194,22 +194,29 @@
   - get neighbors
   - size
 - [README](/graph/README.md)
-- [Graph Whiteboard](../assets/graphs.png)
-- [Graph Solution](./graph.js)
+- [Graph Whiteboard](./assets/graphs.png)
+- [Graph Solution](../javascript/graph/graph.js)
 
 **Day 30:** Breadth First Graph Traversal
 
 - We traveser through a graph. The method will be breadth first and take no arguments. It will return a collection of nodes in the order they were visited. They will display the collection at the end of the method.
 - [README](/graph-breadthFirst/README.md)
 - [Breadth First Traversal Whiteboard](./assets/breadth-1st-graph.png)
-- [Breadth First traversal Solution](./graph-breadthFirst/breadthFirst.js)
+- [Breadth First traversal Solution](../javascript/graph-breadthFirst/breadthFirst.js)
 
 **Day 31:** Graph Business trip
 
-We write a function called getEdges that takes graph and an array of city names, and returns the cost, or null. Determine whether the trip is possible with direct flights, and how much it would cost.
+- We write a function called getEdges that takes graph and an array of city names, and returns the cost, or null. Determine whether the trip is possible with direct flights, and how much it would cost.
 - [README](/graph-trip/README.md)
-- [Business Trip Whiteboard](../assets/Graph-businessTrip.png)
-- [Business trip Solution](businessTrip.js)
+- [Business Trip Whiteboard](./assets/Graph-businessTrip.png)
+- [Business trip Solution](../javascript/graph-trip/businessTrip.js)
+
+**Day 32:** Depth First Graph Traversal
+
+- We write a depth first preorder traversal function on a graph that takes a node as an argument for the start point of search. It will return a collection of nodes in order and display collection.
+- [README.md](/graph-depthFirst/README.md)
+- [Breadth First Traversal Whiteboard](../javascript/assets/depth-first-graph.png)
+- [Breadth First traversal Solution](../javascript/graph-depthFirst/depthFirst.js)
 
 ---
 **[Home](https://github.com/scottie-l/data-structures-and-algorithms)**

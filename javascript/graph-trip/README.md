@@ -7,9 +7,9 @@ We write a function called getEdges that takes graph and an array of city names,
 
 <u>*Big O:*</u>
 
-Time: 0()
+Time: 0(n)
 
-Space: 0()
+Space: 0(1)
 
 - [Business Trip Whiteboard](../assets/Graph-businessTrip.png)
 - [Business trip Solution](businessTrip.js)
