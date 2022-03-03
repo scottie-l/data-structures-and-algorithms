@@ -71,7 +71,7 @@ describe('Testing methods of the Graph', () => {
   });
 
   // The proper size is returned, representing the number of nodes in the graph
-  it('Should the size, representing of all nodes in the graph using size()', () => {
+  it('Should return the size, representing of all nodes in the graph using size()', () => {
     const result = test.size();
 
     expect(result).toEqual(6);
