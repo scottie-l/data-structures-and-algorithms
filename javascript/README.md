@@ -183,7 +183,7 @@
 **Day 28:** Whiteboard Challenge with peer
 
 - A mock whiteboard interview with a peer, working on function to determine if a string is full of unique charactes.
-- [Unique Characters Whiteboard](/assets/Wtbrd.challenge-34.png);
+- [Unique Characters Whiteboard](/assets/Wtbrd.challenge-28.png);
 
 **Day 29:** Graph
 
@@ -218,7 +218,33 @@
 - [Breadth First Traversal Whiteboard](../javascript/assets/depth-first-graph.png)
 - [Breadth First traversal Solution](../javascript/graph-depthFirst/depthFirst.js)
 
+**Day 33:** Whiteboard Challenge with peer
+
+- A mock whiteboard interview with a peer.
+
+**Day 34:** Whiteboard Challenge with peer
+
+- A mock whiteboard interview with a peer, working on creating a Navigator class responsible for tracking history of locations as well as allowing back and forward movement.
+- [Navigator Tracking Whiteboard](/assets/Wtbrd.challenge-34.png);
+
+**Day 35:** Whiteboard Challenge with peer
+
+- A mock whiteboard interview with a peer, working on writing a function to sanitize a url, by encoding all spaces into the hexidecimal value for a space.
+- [Santize URL Whiteboard](/assets/Wtbrd.challenge-35.png);
+
+**Day 36:** Whiteboard Challenge with peer
+
+- A mock whiteboard interview with a peer, working on writing a function to calculate the water usage for a sprinkler system schematic provided.
+- [Sprinkler H20 Useage Whiteboard](/assets/Wtbrd.challenge-36.png);
+
+**Day 37:** Whiteboard Challenge with peer
+
+- A mock whiteboard interview with a peer, working on writing a function to rotate a 3x3 matrix, by 90 degrees, clockwise.
+- [Rotate Matrix Whiteboard](/assets/Wtbrd.challenge-37.png);
+
 ---
 **[Home](https://github.com/scottie-l/data-structures-and-algorithms)**
 
 ---
+
+<!-- EOF -->
