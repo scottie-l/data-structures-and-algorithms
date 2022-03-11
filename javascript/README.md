@@ -225,22 +225,22 @@
 **Day 34:** Whiteboard Challenge with peer
 
 - A mock whiteboard interview with a peer, working on creating a Navigator class responsible for tracking history of locations as well as allowing back and forward movement.
-- [Navigator Tracking Whiteboard](/assets/Wtbrd.challenge-34.png);
+- [Navigator Tracking Whiteboard](../javascript/assets/Wtbrd.challenge-34.png);
 
 **Day 35:** Whiteboard Challenge with peer
 
 - A mock whiteboard interview with a peer, working on writing a function to sanitize a url, by encoding all spaces into the hexidecimal value for a space.
-- [Santize URL Whiteboard](/assets/Wtbrd.challenge-35.png);
+- [Santize URL Whiteboard](../javascript/assets/Wtbrd.challenge-35.png);
 
 **Day 36:** Whiteboard Challenge with peer
 
 - A mock whiteboard interview with a peer, working on writing a function to calculate the water usage for a sprinkler system schematic provided.
-- [Sprinkler H20 Useage Whiteboard](/assets/Wtbrd.challenge-36.png);
+- [Sprinkler H20 Useage Whiteboard](../javascript/assets/Wtbrd.challenge-36.png);
 
 **Day 37:** Whiteboard Challenge with peer
 
 - A mock whiteboard interview with a peer, working on writing a function to rotate a 3x3 matrix, by 90 degrees, clockwise.
-- [Rotate Matrix Whiteboard](/assets/Wtbrd.challenge-37.png);
+- [Rotate Matrix Whiteboard](../javascript/assets/Wtbrd.challenge-37.png);
 
 ---
 **[Home](https://github.com/scottie-l/data-structures-and-algorithms)**
