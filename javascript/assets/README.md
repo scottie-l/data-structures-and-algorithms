@@ -55,7 +55,6 @@
 **Day 14:** [Whiteboard Challenge with peer](/assets/Wtbrd.challenge-14.png)
 
 - A mock whiteboard interview with a peer, working on the Duck Duck Goose problem. Counting begins at a point and proceeds around the circle. After a specified number of people skipped, the next person is removed. This continues until one person is left.
-- [DuckDuckGoose](/assets/Wtbrd.challenge-14.png)
 
 **Day 15** [Trees](/assets/tree.png)
 
@@ -79,7 +78,6 @@ post-order which returns an array of the values, ordered appropriately. Any exce
 **Day 19:** [Whiteboard Challenge with peer](/assets/Wtbrd.challenge-19.png)
 
 - A mock whiteboard interview with a peer, working on how to find and return the sum of all odd numbers in a Bianry Search Tree using the depth-first or breadth first methods.
-- [Sum of all Odd #'s](/assets/Wtbrd.challenge-19.png)
 
 **Day 20:** [Insetion Sort](/assets/insertionSort/InsertionSort.png)
 
@@ -96,7 +94,6 @@ post-order which returns an array of the values, ordered appropriately. Any exce
 **Day 23:** [Whiteboard Challenge with peer](/assets/Wtbrd.challenge-23.png)
 
 - A mock whiteboard interview with a peer, working on how to implement mergeSort function.
-- [MergeSort](/assets/Wtbrd.challenge-23.png)
 
 **Day 24:** [Hash Table](/assets/hashtable.png)
 
@@ -117,7 +114,6 @@ post-order which returns an array of the values, ordered appropriately. Any exce
 **Day 28:** [Whiteboard Challenge with peer](../assets/Wtbrd.challenge-34.png)
 
 - A mock whiteboard interview with a peer, working on function to determine if a string is full of unique charactes.
-- [Unique Characters Whiteboard](/assets/Wtbrd.challenge-34.png);
 
 **Day 29** [Graphs](../assets/graphs.png)
 
@@ -135,7 +131,29 @@ post-order which returns an array of the values, ordered appropriately. Any exce
 
 - We write a depth first preorder traversal function on a graph that takes a node as an argument for the start point of search. It will return a collection of nodes in order and display collection.
 
+**Day 33:** [Whiteboard Challenge with peer](no link)
+
+- A mock whiteboard interview with a peer.
+
+**Day 34:** [Whiteboard Challenge with peer](../assets/Wtbrd.challenge-34.png)
+
+- A mock whiteboard interview with a peer, working on creating a Navigator class responsible for tracking history of locations as well as allowing back and forward movement.
+
+**Day 35:** [Whiteboard Challenge with peer](../assets/Wtbrd.challenge-35.png)
+
+- A mock whiteboard interview with a peer, working on writing a function to sanitize a url, by encoding all spaces into the hexidecimal value for a space.
+
+**Day 36:** [Whiteboard Challenge with peer](../assets/Wtbrd.challenge-36.png)
+
+- A mock whiteboard interview with a peer, working on writing a function to calculate the water usage for a sprinkler system schematic provided.
+
+**Day 37:** [Whiteboard Challenge with peer](../assets/Wtbrd.challenge-37.png)
+
+- A mock whiteboard interview with a peer, working on writing a function to rotate a 3x3 matrix, by 90 degrees, clockwise.
+
 ---
 [Back](/README.md)
 
 ---
+
+<!-- EOF -->

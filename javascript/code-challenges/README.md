@@ -26,4 +26,9 @@ You can see the results of your tests online in the "Actions" tab of your reposi
 
 When you finish the assignment each day, make a new pull request from your daily challenge branch to your master branch and submit the PR URL in Canvas. You can submit a link to a pull request even if the pull request is closed.
 
-- **[Back](https://github.com/scottie-l/data-structures-and-algorithms/blob/main/javascript/README.md)**
+---
+[Back](/README.md)
+
+---
+
+<!-- EOF -->
